@@ -1,0 +1,34 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>{$Think.Config.cfg_name} - 提示信息</title>
+<link href="__ROOT__/Data/Public/admin/css/admin_style.css" rel="stylesheet" />
+<link href="__ROOT__/Data/Public/org/artDialog/skins/default.css" rel="stylesheet" />
+
+<jsconst />
+<script src="__ROOT__/Data/Public/org/wind.js"></script>
+<script src="__ROOT__/Data/Public/org/jquery.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <div id="error_tips">
+    <h2>{$msgTitle}</h2>
+    <div class="error_cont">
+      <ul>
+        <li>{$error}</li>
+      </ul>
+      <div class="error_return"><a href="{$jumpUrl}" class="btn">返回</a></div>
+    </div>
+  </div>
+</div>
+<script src="__ROOT__/Data/Public/admin/mod.common.js"></script>
+<script language="javascript">
+setTimeout(function(){
+	location.href = '{$jumpUrl}';
+},{$waitSecond}*1000);
+</script>
+</body>
+</html>
