@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SCNU.智慧实验室</title>
+<!--css-->
+<link href="__PUBLIC__/manage/css/bootstrap.css" rel="stylesheet">
+<link href="__PUBLIC__/manage/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--/css-->
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Mechanical Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->		
+<!-- js -->
+<script src="__PUBLIC__/manage/js/jquery.min.js"> </script>
+<script src="__PUBLIC__/manage/js/bootstrap.js"></script>
+<script type="text/javascript" src="__PUBLIC__/manage/js/move-top.js"></script>
+<script type="text/javascript" src="__PUBLIC__/manage/js/easing.js"></script>
+<!-- /js -->
+
+<!--script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<!--/script-->
+</head>
+<body>
+<!--header-->
+<div class="header">
+	<div class="header-nav">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><h1>SCNU.智慧实验室</h1></a>
+			</div>
+			<div class="navigation">
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"> </span>
+							<span class="icon-bar"> </span>
+							<span class="icon-bar"> </span>
+						  </button>
+					</div>
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav">
+						<li><a href="<{:U('index')}>">首页</a></li>
+						<li><a href="<{:U('equipDisplay')}>">设备管理</a></li>
+						<li class="active"><a href="<{:U('photoDisplay')}>">监控图像 <span class="sr-only">(current)</span></a></li>
+						<li><a href="<{:U('userDisplay')}>">成员管理</a></li>
+					  </ul>
+					<div class="clearfix"> </div>
+					</div><!-- /.navbar-collapse -->
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+			  <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(".top-nav ul").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+<div class="banner-bottom-strip">
+	<div class="container">
+		<p>基于微信平台的无人实验管理系统.</p>
+	</div>
+</div>	
+		
+<div class="pandect">
+	<div class="container">	
+		
+		<div class="photo">
+			<div class="photo_til">
+				<h3>监控图像</h3>
+			</div>
+			<div class="photo_container" id = "thephoto">
+				<div id="newphoto"></div>
+				<volist name="imageList" id="data">
+					<div class="col-md-4 product-grid">
+							<a href="<{$data.photo_url}>" class="b-link-stripe b-animate-go1   swipebox"  title="">
+								<img src="<{$data.photo_url}>" alt=" " class="img-responsive" />
+							</a>
+							<div class="project-grid-text1">
+								<h4><{$data.date}> <{$data.time}></h4>
+							</div>
+						
+					</div>
+				</volist>
+				<div id="loading" hidden>  
+					获取图片中，请等待..  
+				</div> 
+				<hr/>
+					<link rel="stylesheet" href="__PUBLIC__/manage/css/swipebox.css">
+						<script src="__PUBLIC__/manage/js/jquery.swipebox.min.js"></script> 
+							<script type="text/javascript">
+								jQuery(function($) {
+									$(".swipebox").swipebox();
+								});
+							</script>
+							<div class="clearfix"> </div>
+					</link>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+ <div class="footer">
+			 <div class="container">				 	
+				 <div class="col-md-3 ftr_navi ftr">
+					 <h3>Navigation</h3>
+					 <ul>
+						<li><a href="<{:U('index')}>">首页</a></li>
+						<li><a href="<{:U('equipDisplay')}>">设备管理</a></li>
+						<li><a href="<{:U('photoDisplay')}>">监控图像</a></li>
+						<li><a href="<{:U('userDisplay')}>">成员管理</a></li>
+					 </ul>
+				 </div>
+
+				 <div class="col-md-3 ftr-logo">
+					 <a href="index.html"><h3>SCNU.智慧实验室</h3></a>
+					 <p>开发者——华南师范大学物理与电信工程学院 深蓝色工程师团队 </p>
+				 </div>
+				<div class="clearfix"> </div>
+			 </div>
+		  </div>
+		 <!---End-container---->
+		 <!---->
+<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+			$("#image").bind("click",{image:$("#image")},function(evdata){  
+					{                   
+						$.get("<{:U('takePhoto')}>");
+						$("#loading").show();
+						//var s = document.getElementsByName("imageList");//document.getElementById("myimage");
+						var para=document.createElement("div");
+						
+						var element = document.getElementById("thephoto");
+						var child=document.getElementById("newphoto");
+						element.insertBefore(para,child);
+						alert(s.name);
+						//getPhoto();
+					};
+			});
+		});
+		
+			//定时获取数据
+			function getPhoto(){
+					$.ajax({  
+						type:"POST",  
+						dataType:"json",  
+						url:"<{:U('getPhoto')}>",  
+						timeout:80000,  //ajax请求超时时间20秒  
+						data:{time:"5"}, //10秒后无论结果服务器都返回数据  
+						success:function(data,textStatus){  
+							//从服务器得到数据，显示数据并继续查询  
+							if(data.success=="1"){ 
+								$("#loading").hide();
+								//$("#msg").append("<br>[有数据]"+data.imageUrl); 
+								//document.getElementById("myimage").src=data.imageUrl;
+								var s = document.getElementsByName("volist");
+								alert(s);
+								clearTimeout(the_timeout);
+
+							}
+						 //未从服务器得到数据，继续查询  
+							 if(data.success=="0"){  
+								//$("#msg").append("<br>[无数据]");  
+								the_timeout = setTimeout("getPhoto();", 3000);
+							}  
+						},  
+						//Ajax请求超时，继续查询  
+						error:function(XMLHttpRequest,textStatus,errorThrown){  
+							if(textStatus=="timeout"){  
+								//$("#msg").append("<br>[超时]");
+								the_timeout = setTimeout("getPhoto();", 3000);
+							}  
+						}  
+					}); 
+				};
+			
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!----> 
+</body>
+</html>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SCNU.智慧实验室</title>
+<!--css-->
+<link href="__PUBLIC__/manage/css/bootstrap.css" rel="stylesheet">
+<link href="__PUBLIC__/manage/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--/css-->
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Mechanical Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!-- js -->
+<script src="__PUBLIC__/manage/js/jquery.min.js"> </script>
+<script src="__PUBLIC__/manage/js/bootstrap.js"></script>
+<script type="text/javascript" src="__PUBLIC__/manage/js/move-top.js"></script>
+<script type="text/javascript" src="__PUBLIC__/manage/js/easing.js"></script>
+<!-- /js -->
+
+<!--script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<!--/script-->
+</head>
+<body>
+<!--header-->
+<div class="header">
+	<div class="header-nav">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><h1>SCNU.智慧实验室</h1></a>
+			</div>
+			<div class="navigation">
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"> </span>
+							<span class="icon-bar"> </span>
+							<span class="icon-bar"> </span>
+						  </button>
+					</div>
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav">
+						<li class="active"><a href="<{:U('index')}>">首页 <span class="sr-only">(current)</span></a></li>
+						<li><a href="<{:U('equipDisplay')}>">设备管理</a></li>
+						<li><a href="<{:U('photoDisplay')}>">监控图像</a></li>
+						<li><a href="<{:U('userDisplay')}>">成员管理</a></li>
+					  </ul>
+					<div class="clearfix"> </div>
+					</div><!-- /.navbar-collapse -->
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+			  <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(".top-nav ul").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+<div class="banner-bottom-strip">
+	<div class="container">
+		<p>基于微信平台的无人实验管理系统.</p>
+	</div>
+</div>	
+
+<div class="pandect">
+	<div class="container">
+		<div class="equipment">
+			<div class="equipment_til">
+				<h3>环境与仪器</h3>
+			</div>
+				<hr/>
+				<div class="equipment_container">
+					<table width = "100%" border="0" cellspacing="2" cellpadding="2">
+						<caption><h4>环境参数</h4></caption>
+							<tr>
+								<th>温度：</th>
+								<td><{$tempture}></td>
+								<td></td>
+								<th>湿度：</th>
+								<td><{$humidity}></td>
+							</tr>
+					</table>
+						<hr/>
+						<!--<table class="bordered">
+							<caption><h4> 仪器状况</h4></caption>
+							<thead>
+								<tr>
+									<th>设备序号</th><th>Mac标签</th><th>设备状态</th>
+								</tr>
+							</thead>-->
+							<!--<volist name="equipList" id="data">
+								<tr>
+									<td><{$data.id}></td>
+									<td><{$data.blemac}></td>
+									<td><{$data.state}></td>
+								</tr>
+							</volist>-->
+							
+							<div id="txtEquipment_111"><{$equipHTML}></div>
+						<!--</table>-->
+				</div>
+				<div id="checking" hidden>  
+					设备清查中，请等待..  
+				</div> 
+		</div>
+		<div class="photo">
+			<div class="photo_til">
+				<h3>监控图像</h3>
+			</div>
+			<div class="photo_container">
+					<div class="col-md-4 product-grid" >
+							<a id ="photo_111" href="<{$photo_url}>" class="b-link-stripe b-animate-go1   swipebox" title="">
+								<img id ="photo_112" src="<{$photo_url}>" alt=" " class="img-responsive" />
+							</a>
+							<div class="project-grid-text1">
+								<h4><{$data.date}> <{$data.time}></h4>
+							</div>
+						
+					</div>
+				
+					<link rel="stylesheet" href="__PUBLIC__/manage/css/swipebox.css">
+						<script src="__PUBLIC__/manage/js/jquery.swipebox.min.js"></script> 
+							<script type="text/javascript">
+								jQuery(function($) {
+									$(".swipebox").swipebox();
+								});
+							</script>
+							<div class="clearfix"> </div>
+			</div>
+			<div id="loading" hidden>  
+				获取图片中，请等待..  
+			</div>
+		</div>
+		<div class="photo-button" >	
+			<button class='btn_photo' id="image">手动拍照</button>	
+			<button class='btn_photo' id="equipment">设备清查</button>
+		</div>
+		<!--<div class="user">
+			<div class="user_til">
+				<h3>成员管理</h3>
+			</div>
+			<div class="user_container">
+				<table class="bordered">
+					<caption><h4> 微信用户</h4></caption>
+					<thead>
+						<tr>
+							<th>名字</th><th>学号</th><th>等级</th>
+						</tr>
+					</thead>
+					<volist name="userList" id="data">
+						<tr>
+							<td><{$data.username}></td>
+							<td><{$data.s_num}></td>
+							<td><{$data.auth}></td>
+						</tr>
+					</volist>
+					
+				</table>
+			</div>
+		</div>-->
+	</div>
+</div>
+ 
+ <div class="footer">
+			 <div class="container">				 	
+				 <div class="col-md-3 ftr_navi ftr">
+					 <h3>Navigation</h3>
+					 <ul>
+						<li class="active"><a href="<{:U('index')}>">首    页 <span class="sr-only">(current)</span></a></li>
+						<li><a href="<{:U('equipDisplay')}>">设备管理</a></li>
+						<li><a href="<{:U('photoDisplay')}>">监控图像</a></li>
+						<li><a href="<{:U('userDisplay')}>">成员管理</a></li>
+					 </ul>
+				 </div>
+
+				 <div class="col-md-3 ftr-logo">
+					 <a href="index.html"><h3>SCNU.智慧实验室</h3></a>
+					 <p>开发者——华南师范大学物理与电信工程学院 深蓝色工程师团队 </p>
+				 </div>
+				<div class="clearfix"> </div>
+			 </div>
+		  </div>
+		 <!---End-container---->
+		 <!---->
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!----> 
+<script type="text/javascript">
+		$(document).ready(function() {
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+			$("#image").bind("click",{image:$("#image")},function(evdata){  
+					{                   
+						$.get("<{:U('takePhoto')}>");
+						$("#loading").show();
+						getPhoto();
+					};
+				});
+			$("#equipment").bind("click",{equipment:$("#equipment")},function(evdata){  
+					{                   
+						$.get("<{:U('checkEquipment')}>");
+						$("#checking").show();
+						getEquipment();
+					};
+				});
+		});
+		//定时获取数据
+			function getPhoto(){
+					$.ajax({  
+						type:"POST",  
+						dataType:"json",  
+						url:"<{:U('getPhoto')}>",  
+						timeout:80000,  //ajax请求超时时间20秒  
+						data:{time:"5"}, //10秒后无论结果服务器都返回数据  
+						success:function(data,textStatus){  
+							//从服务器得到数据，显示数据并继续查询  
+							if(data.success=="1"){ 
+								$("#loading").hide();
+								//$("#msg").append("<br>[有数据]"+data.imageUrl); 
+								document.getElementById("photo_112").src=data.imageUrl;
+								document.getElementById("photo_111").href=data.imageUrl;
+								//alert(document.getElementById("image").src+"aa"+data.imageUrl);
+								clearTimeout(the_timeout);
+
+							}
+						 //未从服务器得到数据，继续查询  
+							 if(data.success=="0"){  
+								//$("#msg").append("<br>[无数据]");  
+								the_timeout = setTimeout("getPhoto();", 3000);
+							}  
+						},  
+						//Ajax请求超时，继续查询  
+						error:function(XMLHttpRequest,textStatus,errorThrown){  
+							if(textStatus=="timeout"){  
+								//$("#msg").append("<br>[超时]");
+								the_timeout = setTimeout("getPhoto();", 3000);
+							}  
+						}  
+					}); 
+				};
+				
+			//定时获取数据
+			function getEquipment(){
+					$.ajax({  
+						type:"POST",  
+						dataType:"json",  
+						url:"<{:U('getEquipment')}>",  
+						timeout:80000,  //ajax请求超时时间20秒  
+						data:{time:"5"}, //10秒后无论结果服务器都返回数据  
+						success:function(data,textStatus){  
+							//从服务器得到数据，显示数据并继续查询  
+							if(data.success=="1"){ 
+								$("#checking").hide();
+								document.getElementById("txtEquipment_111").innerHTML=data.equipHTML;//data.equipHTML;								
+								clearTimeout(the_timeout);
+
+							}
+						 //未从服务器得到数据，继续查询  
+							 if(data.success=="0"){  
+								the_timeout = setTimeout("getEquipment();", 3000);
+							}  
+						},  
+						//Ajax请求超时，继续查询  
+						error:function(XMLHttpRequest,textStatus,errorThrown){  
+							if(textStatus=="timeout"){  
+								the_timeout = setTimeout("getEquipment();", 3000);
+							}  
+						}  
+					}); 
+				};
+				
+			/*$(function(){   // $(document).ready(function(){}) 的简写
+				
+				$("#image").bind("click",{image:$("#image")},function(evdata){  
+					{                   
+						$.get("<{:U('takePhoto')}>");
+						$("#loading").show();
+						getPhoto();
+					};
+				});
+				
+				$("#equipment").bind("click",{equipment:$("#equipment")},function(evdata){  
+					{                   
+						$.get("<{:U('checkEquipment')}>");
+						$("#checking").show();
+						getEquipment();
+					};
+				});
+			});*/ 
+</script>
+</body>
+</html>

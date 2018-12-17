@@ -1,0 +1,1706 @@
+[ 2016-01-27T16:29:42+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 16:29:41 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1550s ( Load:0.0420s Init:0.0100s Exec:0.1030s Template:0.0000s )
+吞吐率:6.45req/s
+内存开销:2,597.08 kb
+查询信息:2 queries 0 writes 
+文件加载:31
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.30 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.08 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\Application\API\Wechat\WechatAPI.class.php ( 2.86 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Org\Wechat\Wechat.class.php ( 11.28 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.000000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0120s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = null LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T16:31:11+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 16:31:11 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1170s ( Load:0.0470s Init:0.0080s Exec:0.0620s Template:0.0000s )
+吞吐率:8.55req/s
+内存开销:2,597.26 kb
+查询信息:2 queries 0 writes 
+文件加载:31
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.30 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.12 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\Application\API\Wechat\WechatAPI.class.php ( 2.86 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Org\Wechat\Wechat.class.php ( 11.28 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.000000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0090s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = null LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:15:11+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:15:11 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.2020s ( Load:0.0610s Init:0.0140s Exec:0.1270s Template:0.0000s )
+吞吐率:4.95req/s
+内存开销:2,488.49 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.50 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+[8] Undefined index: name D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php 第 177 行.
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0100s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:16:38+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:16:38 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1270s ( Load:0.0420s Init:0.0170s Exec:0.0680s Template:0.0000s )
+吞吐率:7.87req/s
+内存开销:2,489.05 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.52 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+[ app_begin ] --END-- [ RunTime:0.006000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+[8] Undefined index: name D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php 第 178 行.
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0090s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:18:40+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:18:39 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1700s ( Load:0.0670s Init:0.0250s Exec:0.0780s Template:0.0000s )
+吞吐率:5.88req/s
+内存开销:2,488.38 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.52 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+[ app_begin ] --END-- [ RunTime:0.004000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0120s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:20:13+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:20:13 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1370s ( Load:0.0470s Init:0.0150s Exec:0.0750s Template:0.0000s )
+吞吐率:7.30req/s
+内存开销:2,488.59 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.54 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0110s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0060s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:20:56+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:20:56 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1270s ( Load:0.0490s Init:0.0120s Exec:0.0660s Template:0.0000s )
+吞吐率:7.87req/s
+内存开销:2,488.59 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.54 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+[ app_begin ] --END-- [ RunTime:0.003001s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0090s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:21:48+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:21:48 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.2380s ( Load:0.1010s Init:0.0220s Exec:0.1150s Template:0.0000s )
+吞吐率:4.20req/s
+内存开销:2,488.59 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.54 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+[ app_begin ] --END-- [ RunTime:0.006001s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0110s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:22:10+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:22:09 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.2070s ( Load:0.0800s Init:0.0190s Exec:0.1080s Template:0.0000s )
+吞吐率:4.83req/s
+内存开销:2,488.37 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.52 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+[ app_begin ] --END-- [ RunTime:0.005000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0100s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:22:58+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:22:58 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1510s ( Load:0.0610s Init:0.0150s Exec:0.0750s Template:0.0000s )
+吞吐率:6.62req/s
+内存开销:2,488.08 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.54 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.000000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+[ app_begin ] --END-- [ RunTime:0.004000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0100s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0050s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:24:48+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:24:48 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.4660s ( Load:0.2640s Init:0.0240s Exec:0.1780s Template:0.0000s )
+吞吐率:2.15req/s
+内存开销:2,488.51 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.59 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+[ app_begin ] --END-- [ RunTime:0.013001s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0100s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:25:47+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:25:47 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1600s ( Load:0.0690s Init:0.0190s Exec:0.0730s Template:-0.0010s )
+吞吐率:6.25req/s
+内存开销:2,488.52 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.59 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+[ app_begin ] --END-- [ RunTime:0.008001s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0130s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:26:42+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:26:41 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1620s ( Load:0.0610s Init:0.0160s Exec:0.0850s Template:0.0000s )
+吞吐率:6.17req/s
+内存开销:2,488.54 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.59 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001001s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+[ app_begin ] --END-- [ RunTime:0.004000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0110s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:27:39+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:27:39 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1310s ( Load:0.0410s Init:0.0170s Exec:0.0730s Template:0.0000s )
+吞吐率:7.63req/s
+内存开销:2,489.16 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.61 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+[ app_begin ] --END-- [ RunTime:0.007001s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0090s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:29:11+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:29:11 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1560s ( Load:0.0540s Init:0.0150s Exec:0.0880s Template:-0.0010s )
+吞吐率:6.41req/s
+内存开销:2,489.95 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.63 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+[ app_begin ] --END-- [ RunTime:0.005001s ]
+[ app_end ] --START--
+
+[ 错误 ]
+[8] Undefined index: nowtime D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php 第 174 行.
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0140s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:30:12+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:30:12 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1600s ( Load:0.0560s Init:0.0160s Exec:0.0880s Template:0.0000s )
+吞吐率:6.25req/s
+内存开销:2,491.48 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001001s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+[8] Undefined index: nowtime D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php 第 174 行.
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0130s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:32:26+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:32:26 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1770s ( Load:0.0680s Init:0.0180s Exec:0.0910s Template:0.0000s )
+吞吐率:5.65req/s
+内存开销:2,492.01 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.81 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+[ app_begin ] --END-- [ RunTime:0.004000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+[8] Undefined index: nowtime D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php 第 174 行.
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0110s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:32:55+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:32:55 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1580s ( Load:0.0580s Init:0.0140s Exec:0.0860s Template:0.0000s )
+吞吐率:6.33req/s
+内存开销:2,492.01 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.81 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+[ app_begin ] --END-- [ RunTime:0.004000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+[8] Undefined index: nowtime D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php 第 174 行.
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0110s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:33:02+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:33:02 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1770s ( Load:0.0530s Init:0.0210s Exec:0.1030s Template:0.0000s )
+吞吐率:5.65req/s
+内存开销:2,490.34 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+[ app_begin ] --END-- [ RunTime:0.005000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+[8] Undefined index: nowtime D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php 第 173 行.
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0170s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:34:12+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:34:12 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1430s ( Load:0.0490s Init:0.0180s Exec:0.0760s Template:0.0000s )
+吞吐率:6.99req/s
+内存开销:2,492.03 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.81 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+[8] Undefined index: nowtime D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php 第 174 行.
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0110s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:35:38+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:35:37 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1310s ( Load:0.0480s Init:0.0170s Exec:0.0660s Template:0.0000s )
+吞吐率:7.63req/s
+内存开销:2,491.30 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.80 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.002000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+[ app_begin ] --END-- [ RunTime:0.004001s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0120s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:35:56+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:35:55 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1380s ( Load:0.0480s Init:0.0180s Exec:0.0720s Template:0.0000s )
+吞吐率:7.25req/s
+内存开销:2,491.30 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.80 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+[ app_begin ] --END-- [ RunTime:0.004000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0150s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:38:14+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:38:14 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1510s ( Load:0.0530s Init:0.0140s Exec:0.0840s Template:0.0000s )
+吞吐率:6.62req/s
+内存开销:2,491.97 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.80 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+[ app_begin ] --END-- [ RunTime:0.004000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+[8] Undefined variable: now D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php 第 177 行.
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0130s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T17:38:34+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/wechat
+[ 基本 ]
+请求信息:2016-01-27 17:38:34 HTTP/1.1 GET : /labscnu/1/index.php/home/wechat
+运行时间:0.1500s ( Load:0.0500s Init:0.0170s Exec:0.0830s Template:0.0000s )
+吞吐率:6.67req/s
+内存开销:2,491.30 kb
+查询信息:2 queries 0 writes 
+文件加载:29
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\WechatController.class.php ( 2.39 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.80 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+[ app_begin ] --END-- [ RunTime:0.004000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0180s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = 'oc4Opt-RW_BzESFDS4HsmDoGktvI' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T20:03:22+08:00 ] 127.0.0.1 /labscnu/1/index.php/home/user/mylab.html
+[ 基本 ]
+请求信息:2016-01-27 20:03:22 HTTP/1.1 GET : /labscnu/1/index.php/home/user/mylab.html
+运行时间:0.4240s ( Load:0.0600s Init:0.0500s Exec:0.1190s Template:0.1950s )
+吞吐率:2.36req/s
+内存开销:2,983.03 kb
+查询信息:2 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\labscnu\1\Application\Runtime\Cache\Home\ae8dca5b5af0fae30237bf7a9e833f43.php ( 5.85 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+[ app_begin ] --END-- [ RunTime:0.004000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+[ template_filter ] --END-- [ RunTime:0.001000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.144008s ]
+[ view_parse ] --END-- [ RunTime:0.144008s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.033002s ]
+[ view_filter ] --END-- [ RunTime:0.035002s ]
+[ app_end ] --START--
+
+[ 错误 ]
+[8] Undefined variable: username D:\wamp\www\labscnu\1\Application\Runtime\Cache\Home\ae8dca5b5af0fae30237bf7a9e833f43.php 第 61 行.
+[8] Undefined variable: s_num D:\wamp\www\labscnu\1\Application\Runtime\Cache\Home\ae8dca5b5af0fae30237bf7a9e833f43.php 第 66 行.
+[8] Undefined variable: laboratory D:\wamp\www\labscnu\1\Application\Runtime\Cache\Home\ae8dca5b5af0fae30237bf7a9e833f43.php 第 71 行.
+[8] Undefined variable: starttime D:\wamp\www\labscnu\1\Application\Runtime\Cache\Home\ae8dca5b5af0fae30237bf7a9e833f43.php 第 75 行.
+[8] Undefined variable: endtime D:\wamp\www\labscnu\1\Application\Runtime\Cache\Home\ae8dca5b5af0fae30237bf7a9e833f43.php 第 81 行.
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0110s ]
+SELECT * FROM `think_labmcs` WHERE `openid` = null LIMIT 1   [ RunTime:0.0150s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T20:08:05+08:00 ] 127.0.0.1 /labscnu/1/index.php/Home/user/myLab.html
+[ 基本 ]
+请求信息:2016-01-27 20:08:04 HTTP/1.1 GET : /labscnu/1/index.php/Home/user/myLab.html
+运行时间:0.2320s ( Load:0.0570s Init:0.0240s Exec:0.0610s Template:0.0900s )
+吞吐率:4.31req/s
+内存开销:2,995.35 kb
+查询信息:2 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\UserController.class.php ( 2.47 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\labscnu\1\Application\Runtime\Cache\Home\ae8dca5b5af0fae30237bf7a9e833f43.php ( 5.85 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+[ template_filter ] --END-- [ RunTime:0.002001s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+[ view_parse ] --END-- [ RunTime:0.068004s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+[ view_filter ] --END-- [ RunTime:0.004000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0100s ]
+SELECT * FROM `think_wechatuser` WHERE `openid` = '34623652' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2016-01-27T20:21:03+08:00 ] 127.0.0.1 /labscnu/1/index.php/Home/User/reLab.html
+[ 基本 ]
+请求信息:2016-01-27 20:21:03 HTTP/1.1 GET : /labscnu/1/index.php/Home/User/reLab.html
+运行时间:0.2620s ( Load:0.0390s Init:0.0240s Exec:0.0560s Template:0.1430s )
+吞吐率:3.82req/s
+内存开销:2,988.63 kb
+查询信息:1 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=nql2uvu6nchv83haq0j0pchtk3
+
+[ 文件 ]
+D:\wamp\www\labscnu\1\index.php ( 1.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\labscnu\1\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\labscnu\1\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\labscnu\1\Application\Home\Controller\UserController.class.php ( 2.47 KB )
+D:\wamp\www\labscnu\1\Application\Home\Model\WechatuserModel.class.php ( 5.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\labscnu\1\Application\Runtime\Cache\Home\61b579c30d5a68bdc4936671c97b95af.php ( 4.62 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\labscnu\1\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+[ app_begin ] --END-- [ RunTime:0.008000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+[ template_filter ] --END-- [ RunTime:0.002000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.122007s ]
+[ view_parse ] --END-- [ RunTime:0.122007s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+[ view_filter ] --END-- [ RunTime:0.003000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_wechatuser` [ RunTime:0.0090s ]
+
+[ 调试 ]
+
+

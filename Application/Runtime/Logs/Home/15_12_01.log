@@ -1,0 +1,55 @@
+[ 2015-12-01T22:49:30+08:00 ] 127.0.0.1 /gokit3/index.php/Home/wechat/aouth
+ERR: 1146:Table 'gokit.think_labmcs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_labmcs`
+
+[ 2015-12-01T22:51:52+08:00 ] 127.0.0.1 /gokit3/index.php/Home/wechat/aouth
+ERR: 非法操作:aouth
+
+[ 2015-12-01T22:53:14+08:00 ] 127.0.0.1 /gokit3/index.php/Home/User/reLab.html
+SQL: SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\gokit3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\gokit3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `think_labmcs` SET `s_num`='323',`laboratory`='dsa',`state`='预约',`starttime`='asf',`endtime`='asf' WHERE `openid` = 'jvoiajgf45ijf' [ RunTime:0.0730s ]
+
+[ 2015-12-01T22:53:42+08:00 ] 127.0.0.1 /gokit3/index.php/Home/User/out.html
+SQL: SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0120s ]
+SQL: UPDATE `think_labmcs` SET `state`='结束',`starttime`=NULL,`endtime`=NULL WHERE `openid` = 'jvoiajgf45ijf' [ RunTime:0.0010s ]
+
+[ 2015-12-01T22:54:28+08:00 ] 127.0.0.1 /gokit3/index.php/Home/User/reLab.html
+SQL: SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0550s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\gokit3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\gokit3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `think_labmcs` SET `s_num`='13413',`laboratory`='理六420',`state`='预约',`starttime`='1313',`endtime`='331' WHERE `openid` = 'jvoiajgf45ijf' [ RunTime:0.0000s ]
+
+[ 2015-12-01T22:55:49+08:00 ] 127.0.0.1 /gokit3/index.php/Home/User/out.html
+SQL: SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0100s ]
+SQL: UPDATE `think_labmcs` SET `state`='结束',`starttime`=NULL,`endtime`=NULL WHERE `openid` = 'jvoiajgf45ijf' [ RunTime:0.0000s ]
+
+[ 2015-12-01T23:01:38+08:00 ] 127.0.0.1 /gokit3/index.php/Home/User/reLab.html
+SQL: SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\gokit3\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\gokit3\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `think_labmcs` SET `s_num`='234',`laboratory`='位q',`state`='预约',`starttime`='234',`endtime`='23423' WHERE `openid` = 'jvoiajgf45ijf' [ RunTime:0.0020s ]
+
+[ 2015-12-01T23:02:40+08:00 ] 127.0.0.1 /gokit3/index.php/Home/User/out.html
+SQL: SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0040s ]
+SQL: UPDATE `think_labmcs` SET `state`='结束',`starttime`=NULL,`endtime`=NULL WHERE `openid` = 'jvoiajgf45ijf' [ RunTime:0.0000s ]
+
+[ 2015-12-01T23:08:31+08:00 ] 127.0.0.1 /gokit3/index.php/home/user/relab.html
+ERR: 1146:Table 'gokit.think_安抚' doesn't exist
+ [ SQL语句 ] : UPDATE `think_安抚` SET `s_num`='234',`laboratory`='234',`state`='预约',`starttime`='234',`endtime`='234' WHERE `openid` = 'jvoiajgf45ijf'
+ERR: 1146:Table 'gokit.think_安抚' doesn't exist
+ [ SQL语句 ] : UPDATE `think_安抚` SET `s_num`='234',`laboratory`='234',`state`='预约',`starttime`='234',`endtime`='234' WHERE `openid` = 'jvoiajgf45ijf'
+
+[ 2015-12-01T23:09:47+08:00 ] 127.0.0.1 /gokit3/index.php/home/user/relab.html
+ERR: 1146:Table 'gokit.think_安抚' doesn't exist
+ [ SQL语句 ] : UPDATE `think_安抚` SET `s_num`='23',`laboratory`='234',`state`='预约',`starttime`='234',`endtime`='234' WHERE `openid` = 'jvoiajgf45ijf'
+ERR: 1146:Table 'gokit.think_安抚' doesn't exist
+ [ SQL语句 ] : UPDATE `think_安抚` SET `s_num`='23',`laboratory`='234',`state`='预约',`starttime`='234',`endtime`='234' WHERE `openid` = 'jvoiajgf45ijf'
+
+[ 2015-12-01T23:10:13+08:00 ] 127.0.0.1 /gokit3/index.php/home/user/relab.html
+ERR: 1146:Table 'gokit.think_无法' doesn't exist
+ [ SQL语句 ] : UPDATE `think_无法` SET `s_num`='2343',`laboratory`='234',`state`='预约',`starttime`='234',`endtime`='234' WHERE `openid` = 'jvoiajgf45ijf'
+ERR: 1146:Table 'gokit.think_无法' doesn't exist
+ [ SQL语句 ] : UPDATE `think_无法` SET `s_num`='2343',`laboratory`='234',`state`='预约',`starttime`='234',`endtime`='234' WHERE `openid` = 'jvoiajgf45ijf'
+

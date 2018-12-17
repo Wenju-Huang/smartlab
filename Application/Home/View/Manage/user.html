@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SCNU.智慧实验室</title>
+<!--css-->
+<link href="__PUBLIC__/manage/css/bootstrap.css" rel="stylesheet">
+<link href="__PUBLIC__/manage/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--/css-->
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Mechanical Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->		
+<!-- js -->
+<script src="__PUBLIC__/manage/js/jquery.min.js"> </script>
+<script src="__PUBLIC__/manage/js/bootstrap.js"></script>
+<script type="text/javascript" src="__PUBLIC__/manage/js/move-top.js"></script>
+<script type="text/javascript" src="__PUBLIC__/manage/js/easing.js"></script>
+<!-- /js -->
+
+<!--script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<!--/script-->
+</head>
+<body>
+<!--header-->
+<div class="header">
+	<div class="header-nav">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><h1>SCNU.智慧实验室</h1></a>
+			</div>
+			<div class="navigation">
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"> </span>
+							<span class="icon-bar"> </span>
+							<span class="icon-bar"> </span>
+						  </button>
+					</div>
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav">
+						<li><a href="<{:U('index')}>">首页</a></li>
+						<li><a href="<{:U('equipDisplay')}>">设备管理</a></li>
+						<li><a href="<{:U('photoDisplay')}>">监控图像</a></li>
+						<li class="active"><a href="<{:U('userDisplay')}>">成员管理 <span class="sr-only">(current)</span></a></li>
+					  </ul>
+					<div class="clearfix"> </div>
+					</div><!-- /.navbar-collapse -->
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+			  <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(".top-nav ul").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+<div class="banner-bottom-strip">
+	<div class="container">
+		<p>基于微信平台的无人实验管理系统.</p>
+	</div>
+</div>	
+<div class="pandect">
+		<div class="user">
+			<div class="user_til">
+				<h3>成员管理</h3>
+			</div>
+			<div class="user_container">
+				<table class="bordered">
+					<caption><h4> 微信用户</h4></caption>
+					<thead>
+						<tr>
+							<th>名字</th><th>学号</th><th>等级</th>
+						</tr>
+					</thead>
+					<volist name="userList" id="data">
+						<tr>
+							<td><{$data.username}></td>
+							<td><{$data.s_num}></td>
+							<td class="userOauth" value ="<{$data.openid}>"><{$data.auth}></td>
+						</tr>
+					</volist>
+				</table>
+				
+				<hr/>
+				<table class="bordered">
+					<caption><h4> 学生卡用户</h4></caption>
+					<thead>
+						<tr>
+							<th>名字</th><th>卡号</th><th>权限</th>
+						</tr>
+					</thead>
+					<volist name="cardList" id="data">
+						<tr>
+							<td><{$data.name}></td>
+							<td><{$data.cardnum}></td>
+							<td class="cardOauth" value ="<{$data.cardnum}>"><{$data.oauth}></td>
+						</tr>
+					</volist>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+ <div class="footer">
+			 <div class="container">				 	
+				 <div class="col-md-3 ftr_navi ftr">
+					 <h3>Navigation</h3>
+					 <ul>
+						<li><a href="<{:U('index')}>">首页</a></li>
+						<li><a href="<{:U('equipDisplay')}>">设备管理</a></li>
+						<li><a href="<{:U('photoDisplay')}>">监控图像</a></li>
+						<li><a href="<{:U('userDisplay')}>">成员管理</a></li>
+					 </ul>
+				 </div>
+
+				 <div class="col-md-3 ftr-logo">
+					 <a href="index.html"><h3>SCNU.智慧实验室</h3></a>
+					 <p>开发者——华南师范大学物理与电信工程学院 深蓝色工程师团队 </p>
+				 </div>
+				<div class="clearfix"> </div>
+			 </div>
+		  </div>
+		 <!---End-container---->
+		 <!---->
+<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+
+		//获取class为caname的元素 
+		$(".userOauth").click(function () { 
+			var td = $(this); 
+			var txt = $.trim(td.text()); 
+			//var input = $("<input type='text'value='" + txt + "'/>"); 
+			var input = $("<select id='oauth'><option value='金牌用户'>金牌用户</option><option value='高级用户'>高级用户</option><option value='一般用户'>一般用户</option></option><option value='未知用户'>未知用户</option><option value='delete'>删除</option></select>")
+			td.html(input); 
+			var x=document.getElementById("oauth");
+			for(i=0; i<x.length; i++){
+				if(x[i].value == txt){
+					x[i].selected = true;
+				}
+			}
+			input.click(function () { return false; }); 
+			//获取焦点 
+			
+			input.trigger("focus"); 
+			//文本框失去焦点后提交内容，重新变为文本 
+			input.blur(function () { 
+				var newtxt = $(this).val(); 
+				//判断文本有没有修改 
+				if (newtxt != txt) { 
+					if(newtxt == "delete")
+					{
+						if(confirm("是否确认删除")){
+							td.parent().remove();
+							$.post("<{:U('userDisplay')}>",
+							{
+								kind:"wechat",
+								openid:""+td.attr("value"),
+								auth:""+newtxt
+							});
+						}
+						else {
+						td.html(txt);
+						}
+					}
+					else {
+						td.html(newtxt); 
+						$.post("<{:U('userDisplay')}>",
+						  {
+							kind:"wechat",
+							openid:""+td.attr("value"),
+							auth:""+newtxt
+						  });
+					}
+				}
+				else td.html(txt);
+			});
+			//alert("修改成功");
+		});
+		$(".cardOauth").click(function () { 
+			var td = $(this); 
+			var txt = $.trim(td.text()); 
+			//var input = $("<input type='text'value='" + txt + "'/>"); 
+			var input = $("<select id='cardoauth'><option value='已授权'>授权</option><option value='未授权'>拒绝</option><option <option value='待删除'>删除</option></select>")
+			td.html(input); 
+			var x=document.getElementById("cardoauth");
+			for(i=0; i<x.length; i++){
+				if(x[i].value == txt){
+					x[i].selected = true;
+				}
+			}
+			input.click(function () { return false; }); 
+			//获取焦点 
+			
+			input.trigger("focus"); 
+			//文本框失去焦点后提交内容，重新变为文本 
+			input.blur(function () { 
+				var newtxt = $(this).val(); 
+				//判断文本有没有修改 
+				if (newtxt != txt) { 
+					if(newtxt == '待删除')
+					{
+						if(confirm("是否确认删除")){
+							//td.parent().remove();
+							td.html(newtxt); 
+							$.post("<{:U('userDisplay')}>",
+							{
+								kind:"card",
+								openid:""+td.attr("value"),
+								auth:newtxt
+							});
+						}
+						else {
+						td.html(txt);
+						}
+					}
+					else {
+						td.html(newtxt); 
+						$.post(
+							"<{:U('userDisplay')}>",
+							{
+								kind:"card",
+								openid:""+td.attr("value"),
+								auth:""+newtxt
+							}
+							/*,
+							function(data,status){
+							alert("Data: " + data + "\nStatus: " + status);
+							}*/
+						);
+					}
+				}
+				else td.html(txt);
+			});
+			//alert("修改成功");
+		});
+		
+});
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!----> 
+</body>
+</html>

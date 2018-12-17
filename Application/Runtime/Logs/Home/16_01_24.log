@@ -1,0 +1,63 @@
+[ 2016-01-24T13:23:15+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/user
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_labmcs` (`openid`,`state`,`auth`) VALUES (NULL,'结束','一般用户')
+
+[ 2016-01-24T13:24:11+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/wechat/outh_home
+ERR: 非法操作:outh_home
+
+[ 2016-01-24T13:24:40+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/User/out.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0110s ]
+SQL: UPDATE `think_labmcs` SET `state`='结束',`starttime`=NULL,`endtime`=NULL WHERE `openid` = '34623652' [ RunTime:0.0460s ]
+
+[ 2016-01-24T13:25:31+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/User/reLab.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: error_num D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php 第 38 行.
+
+[ 2016-01-24T13:54:20+08:00 ] 127.0.0.1 /gokit/3/index.php/Home
+ERR: Tag 'RAEz' expected, but '<' found in stream
+
+[ 2016-01-24T13:54:54+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/
+ERR: Tag 'RAEz' expected, but '<' found in stream
+
+[ 2016-01-24T13:55:08+08:00 ] 127.0.0.1 /gokit/3/index.php/Home
+ERR: Tag 'RAEz' expected, but '<' found in stream
+
+[ 2016-01-24T13:56:15+08:00 ] 127.0.0.1 /gokit/3/index.php/Home
+ERR: Tag 'RAEz' expected, but '<' found in stream
+
+[ 2016-01-24T14:00:45+08:00 ] 127.0.0.1 /gokit/3/index.php/Home
+ERR: Incorrect response id (request id: 1, response id: )
+
+[ 2016-01-24T14:07:50+08:00 ] 127.0.0.1 /gokit/3/index.php/Home
+ERR: Incorrect response id (request id: 1, response id: )
+
+[ 2016-01-24T14:08:07+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/
+ERR: Incorrect response id (request id: 1, response id: )
+
+[ 2016-01-24T14:09:15+08:00 ] 127.0.0.1 /gokit/3/index.php/Home
+ERR: Incorrect response id (request id: 1, response id: )
+
+[ 2016-01-24T14:10:34+08:00 ] 127.0.0.1 /gokit/3/index.php/Home
+ERR: Incorrect response id (request id: 1, response id: )
+
+[ 2016-01-24T14:12:31+08:00 ] 127.0.0.1 /gokit/3/index.php/Home
+ERR: Incorrect response id (request id: 1, response id: )
+
+[ 2016-01-24T16:10:13+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/
+ERR: Incorrect response id (request id: 1, response id: )
+
+[ 2016-01-24T16:15:27+08:00 ] 127.0.0.1 /gokit/3/index.php/Home
+ERR: Incorrect response id (request id: 1, response id: )
+
+[ 2016-01-24T16:41:19+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/
+ERR: Tag 'RAEz' expected, but '<' found in stream
+
+[ 2016-01-24T16:43:39+08:00 ] 127.0.0.1 /gokit/3/index.php/Home
+ERR: Tag 'RAEz' expected, but '<' found in stream
+

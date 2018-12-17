@@ -1,0 +1,68 @@
+[ 2016-01-25T13:45:34+08:00 ] 127.0.0.1 /gokit/3/index.php/Home
+ERR: Can't find this function test1().
+file: D:\wamp\www\gokit\3\ThinkPHP\Library\Vendor\Hprose\HproseHttpServer.php
+line: 149
+trace: #0 D:\wamp\www\gokit\3\ThinkPHP\Library\Vendor\Hprose\HproseHttpServer.php(461): HproseHttpServer->doInvoke()
+#1 D:\wamp\www\gokit\3\ThinkPHP\Library\Vendor\Hprose\HproseHttpServer.php(480): HproseHttpServer->handle()
+#2 D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller\HproseController.class.php(50): HproseHttpServer->start()
+#3 D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php(681): Think\Controller\HproseController->__construct()
+#4 D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php(89): controller('Device', '')
+#5 D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php(204): Think\App::exec()
+#6 D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php(120): Think\App::run()
+#7 D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php(97): Think\Think::start()
+#8 D:\wamp\www\gokit\3\index.php(25): require('D:\\wamp\\www\\gok...')
+#9 {main}
+
+[ 2016-01-25T13:45:44+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/
+ERR: Can't find this function test1().
+file: D:\wamp\www\gokit\3\ThinkPHP\Library\Vendor\Hprose\HproseHttpServer.php
+line: 149
+trace: #0 D:\wamp\www\gokit\3\ThinkPHP\Library\Vendor\Hprose\HproseHttpServer.php(461): HproseHttpServer->doInvoke()
+#1 D:\wamp\www\gokit\3\ThinkPHP\Library\Vendor\Hprose\HproseHttpServer.php(480): HproseHttpServer->handle()
+#2 D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller\HproseController.class.php(50): HproseHttpServer->start()
+#3 D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php(681): Think\Controller\HproseController->__construct()
+#4 D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php(89): controller('Device', '')
+#5 D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php(204): Think\App::exec()
+#6 D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php(120): Think\App::run()
+#7 D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php(97): Think\Think::start()
+#8 D:\wamp\www\gokit\3\index.php(25): require('D:\\wamp\\www\\gok...')
+#9 {main}
+
+[ 2016-01-25T17:16:21+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/device/test1
+ERR: 非法操作:test1
+
+[ 2016-01-25T17:31:48+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/device/id?/1234
+ERR: 非法操作:id
+
+[ 2016-01-25T17:31:59+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/device/id?1234
+ERR: 非法操作:id
+
+[ 2016-01-25T18:59:42+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/device/index/?
+ERR: 非法操作:{
+"id":1234,
+"room":420
+}
+
+[ 2016-01-25T19:29:41+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/device/wechat
+ERR: 非法操作:wechat
+
+[ 2016-01-25T19:30:13+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/device/wechat/oauth_hpme
+ERR: 非法操作:wechat
+
+[ 2016-01-25T19:30:25+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/wechat/oauth_hpme
+ERR: 非法操作:oauth_hpme
+
+[ 2016-01-25T19:31:34+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/User/reLab.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0140s ]
+SQL: UPDATE `think_labmcs` SET `username`='hu',`s_num`='124',`laboratory`='lh',`state`='预约',`starttime`='344',`endtime`='234' WHERE `openid` = '34623652' [ RunTime:0.0640s ]
+
+[ 2016-01-25T21:42:01+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/device?cardNum=1234&roomNum=420
+ERR: Think\Model:get_one方法不存在！
+
+[ 2016-01-25T21:52:29+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/device?cardNum=1234&roomNum=420
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `think_carduser` WHERE ( cardNum={$cardNum} ) LIMIT 1  
+

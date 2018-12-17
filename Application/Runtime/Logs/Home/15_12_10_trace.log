@@ -1,0 +1,1206 @@
+[ 2015-12-10T11:03:54+08:00 ] 127.0.0.1 /gokit/3/index.php/Home
+[ 基本 ]
+请求信息:2015-12-10 11:03:53 HTTP/1.1 GET : /gokit/3/index.php/Home
+运行时间:0.1060s ( Load:0.0700s Init:0.0270s Exec:0.0090s Template:0.0000s )
+吞吐率:9.43req/s
+内存开销:1,333.79 kb
+查询信息:0 queries 0 writes 
+文件加载:24
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\IndexController.class.php ( 0.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.012000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+[ app_begin ] --END-- [ RunTime:0.004000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+
+
+[ 调试 ]
+
+
+[ 2015-12-10T11:04:31+08:00 ] 127.0.0.1 /gokit/3/index.php/Home
+[ 基本 ]
+请求信息:2015-12-10 11:04:31 HTTP/1.1 GET : /gokit/3/index.php/Home
+运行时间:0.0740s ( Load:0.0540s Init:0.0120s Exec:0.0080s Template:0.0000s )
+吞吐率:13.51req/s
+内存开销:1,333.84 kb
+查询信息:0 queries 0 writes 
+文件加载:24
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\IndexController.class.php ( 0.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.000000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+[ app_begin ] --END-- [ RunTime:0.005000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+
+
+[ 调试 ]
+
+
+[ 2015-12-10T11:05:25+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/user/reLab.html
+[ 基本 ]
+请求信息:2015-12-10 11:05:25 HTTP/1.1 GET : /gokit/3/index.php/Home/user/reLab.html
+运行时间:0.1890s ( Load:0.0600s Init:0.0240s Exec:0.0680s Template:0.0370s )
+吞吐率:5.29req/s
+内存开销:2,978.05 kb
+查询信息:1 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\gokit\3\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\gokit\3\Application\Runtime\Cache\Home\61b579c30d5a68bdc4936671c97b95af.php ( 4.88 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.003000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+[ app_begin ] --END-- [ RunTime:0.004000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+[ template_filter ] --END-- [ RunTime:0.001000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+[ view_parse ] --END-- [ RunTime:0.028001s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+[ view_filter ] --END-- [ RunTime:0.002001s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0160s ]
+
+[ 调试 ]
+
+
+[ 2015-12-10T12:19:39+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/user/reLab.html
+[ 基本 ]
+请求信息:2015-12-10 12:19:38 HTTP/1.1 GET : /gokit/3/index.php/Home/user/reLab.html
+运行时间:0.1690s ( Load:0.0450s Init:0.0140s Exec:0.0480s Template:0.0620s )
+吞吐率:5.92req/s
+内存开销:2,977.91 kb
+查询信息:1 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\gokit\3\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\gokit\3\Application\Runtime\Cache\Home\61b579c30d5a68bdc4936671c97b95af.php ( 4.88 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+[ template_filter ] --END-- [ RunTime:0.001000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+[ view_parse ] --END-- [ RunTime:0.041003s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+[ view_filter ] --END-- [ RunTime:0.003000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0160s ]
+
+[ 调试 ]
+
+
+[ 2015-12-10T12:20:20+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/User/myLab.html
+[ 基本 ]
+请求信息:2015-12-10 12:20:20 HTTP/1.1 GET : /gokit/3/index.php/Home/User/myLab.html
+运行时间:0.1390s ( Load:0.0450s Init:0.0130s Exec:0.0440s Template:0.0370s )
+吞吐率:7.19req/s
+内存开销:2,984.24 kb
+查询信息:2 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\gokit\3\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\gokit\3\Application\Runtime\Cache\Home\ae8dca5b5af0fae30237bf7a9e833f43.php ( 5.83 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+[ template_filter ] --END-- [ RunTime:0.001000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+[ view_parse ] --END-- [ RunTime:0.027002s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0090s ]
+SELECT * FROM `think_labmcs` WHERE `openid` = '34623652' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 调试 ]
+
+
+[ 2015-12-10T12:24:26+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/User/reLab.html
+[ 基本 ]
+请求信息:2015-12-10 12:24:26 HTTP/1.1 GET : /gokit/3/index.php/Home/User/reLab.html
+运行时间:0.1300s ( Load:0.0300s Init:0.0120s Exec:0.0500s Template:0.0380s )
+吞吐率:7.69req/s
+内存开销:2,979.10 kb
+查询信息:1 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\gokit\3\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\gokit\3\Application\Runtime\Cache\Home\61b579c30d5a68bdc4936671c97b95af.php ( 4.88 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.000000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+[ template_filter ] --END-- [ RunTime:0.001000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+[ view_parse ] --END-- [ RunTime:0.029002s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+[ view_filter ] --END-- [ RunTime:0.001000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0110s ]
+
+[ 调试 ]
+
+
+[ 2015-12-10T12:33:05+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/User/reLab.html
+[ 基本 ]
+请求信息:2015-12-10 12:33:05 HTTP/1.1 GET : /gokit/3/index.php/Home/User/reLab.html
+运行时间:0.2140s ( Load:0.0570s Init:0.0140s Exec:0.0740s Template:0.0690s )
+吞吐率:4.67req/s
+内存开销:2,979.13 kb
+查询信息:1 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\gokit\3\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\gokit\3\Application\Runtime\Cache\Home\61b579c30d5a68bdc4936671c97b95af.php ( 4.84 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001001s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+[ app_begin ] --END-- [ RunTime:0.005000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+[ template_filter ] --END-- [ RunTime:0.002000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+[ view_parse ] --END-- [ RunTime:0.045002s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+[ view_filter ] --END-- [ RunTime:0.004001s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0200s ]
+
+[ 调试 ]
+
+
+[ 2015-12-10T12:34:59+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/User/reLab.html
+[ 基本 ]
+请求信息:2015-12-10 12:34:58 HTTP/1.1 GET : /gokit/3/index.php/Home/User/reLab.html
+运行时间:0.2330s ( Load:0.0600s Init:0.0120s Exec:0.0990s Template:0.0620s )
+吞吐率:4.29req/s
+内存开销:2,979.01 kb
+查询信息:1 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\gokit\3\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\gokit\3\Application\Runtime\Cache\Home\61b579c30d5a68bdc4936671c97b95af.php ( 4.85 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.000000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+[ template_filter ] --END-- [ RunTime:0.001000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+[ view_parse ] --END-- [ RunTime:0.041002s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0250s ]
+
+[ 调试 ]
+
+
+[ 2015-12-10T12:35:55+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/user/myLab.html
+[ 基本 ]
+请求信息:2015-12-10 12:35:55 HTTP/1.1 GET : /gokit/3/index.php/Home/user/myLab.html
+运行时间:0.2020s ( Load:0.0620s Init:0.0120s Exec:0.0720s Template:0.0560s )
+吞吐率:4.95req/s
+内存开销:2,985.00 kb
+查询信息:2 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\gokit\3\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\gokit\3\Application\Runtime\Cache\Home\ae8dca5b5af0fae30237bf7a9e833f43.php ( 5.83 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+[ template_filter ] --END-- [ RunTime:0.001000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+[ view_parse ] --END-- [ RunTime:0.042002s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0110s ]
+SELECT * FROM `think_labmcs` WHERE `openid` = '34623652' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2015-12-10T12:35:59+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/User/reLab.html
+[ 基本 ]
+请求信息:2015-12-10 12:35:59 HTTP/1.1 GET : /gokit/3/index.php/Home/User/reLab.html
+运行时间:0.1220s ( Load:0.0260s Init:0.0110s Exec:0.0500s Template:0.0350s )
+吞吐率:8.20req/s
+内存开销:2,979.01 kb
+查询信息:1 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\gokit\3\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\gokit\3\Application\Runtime\Cache\Home\61b579c30d5a68bdc4936671c97b95af.php ( 4.85 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+[ template_filter ] --END-- [ RunTime:0.001000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+[ view_parse ] --END-- [ RunTime:0.029001s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+[ view_filter ] --END-- [ RunTime:0.001000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0120s ]
+
+[ 调试 ]
+
+
+[ 2015-12-10T12:37:36+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/User/reLab.html
+[ 基本 ]
+请求信息:2015-12-10 12:37:36 HTTP/1.1 GET : /gokit/3/index.php/Home/User/reLab.html
+运行时间:0.1960s ( Load:0.0410s Init:0.0120s Exec:0.0960s Template:0.0470s )
+吞吐率:5.10req/s
+内存开销:2,978.48 kb
+查询信息:1 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\gokit\3\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\gokit\3\Application\Runtime\Cache\Home\61b579c30d5a68bdc4936671c97b95af.php ( 4.85 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+[ template_filter ] --END-- [ RunTime:0.001000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.033001s ]
+[ view_parse ] --END-- [ RunTime:0.033001s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+[ view_filter ] --END-- [ RunTime:0.003000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0160s ]
+
+[ 调试 ]
+
+
+[ 2015-12-10T12:37:47+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/user/reLab.html
+[ 基本 ]
+请求信息:2015-12-10 12:37:46 HTTP/1.1 GET : /gokit/3/index.php/Home/user/reLab.html
+运行时间:0.1610s ( Load:0.0730s Init:0.0120s Exec:0.0410s Template:0.0350s )
+吞吐率:6.21req/s
+内存开销:2,978.15 kb
+查询信息:1 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\gokit\3\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\gokit\3\Application\Runtime\Cache\Home\61b579c30d5a68bdc4936671c97b95af.php ( 4.85 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+[ template_filter ] --END-- [ RunTime:0.001000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+[ view_parse ] --END-- [ RunTime:0.025001s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0110s ]
+
+[ 调试 ]
+
+
+[ 2015-12-10T12:38:03+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/User/myLab.html
+[ 基本 ]
+请求信息:2015-12-10 12:38:03 HTTP/1.1 GET : /gokit/3/index.php/Home/User/myLab.html
+运行时间:0.1250s ( Load:0.0340s Init:0.0080s Exec:0.0460s Template:0.0370s )
+吞吐率:8.00req/s
+内存开销:2,984.57 kb
+查询信息:2 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\gokit\3\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\gokit\3\Application\Runtime\Cache\Home\ae8dca5b5af0fae30237bf7a9e833f43.php ( 5.83 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.000000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+[ template_filter ] --END-- [ RunTime:0.001000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+[ view_parse ] --END-- [ RunTime:0.026001s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+[ view_filter ] --END-- [ RunTime:0.001000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0110s ]
+SELECT * FROM `think_labmcs` WHERE `openid` = '33423652' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2015-12-10T12:42:39+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/user/myLab.html
+[ 基本 ]
+请求信息:2015-12-10 12:42:39 HTTP/1.1 GET : /gokit/3/index.php/Home/user/myLab.html
+运行时间:0.1250s ( Load:0.0340s Init:0.0110s Exec:0.0430s Template:0.0370s )
+吞吐率:8.00req/s
+内存开销:2,984.34 kb
+查询信息:2 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\gokit\3\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\gokit\3\Application\Runtime\Cache\Home\ae8dca5b5af0fae30237bf7a9e833f43.php ( 5.83 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+[ template_filter ] --END-- [ RunTime:0.001000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+[ view_parse ] --END-- [ RunTime:0.025001s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+[ view_filter ] --END-- [ RunTime:0.001001s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0100s ]
+SELECT * FROM `think_labmcs` WHERE `openid` = '33423652' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 调试 ]
+
+
+[ 2015-12-10T12:42:45+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/User/reLab.html
+[ 基本 ]
+请求信息:2015-12-10 12:42:44 HTTP/1.1 GET : /gokit/3/index.php/Home/User/reLab.html
+运行时间:0.1180s ( Load:0.0340s Init:0.0090s Exec:0.0400s Template:0.0350s )
+吞吐率:8.47req/s
+内存开销:2,978.16 kb
+查询信息:1 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\gokit\3\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\gokit\3\Application\Runtime\Cache\Home\61b579c30d5a68bdc4936671c97b95af.php ( 4.61 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.000000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+[ template_filter ] --END-- [ RunTime:0.001000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+[ view_parse ] --END-- [ RunTime:0.025001s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0120s ]
+
+[ 调试 ]
+
+
+[ 2015-12-10T12:42:56+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/User/myLab.html
+[ 基本 ]
+请求信息:2015-12-10 12:42:56 HTTP/1.1 GET : /gokit/3/index.php/Home/User/myLab.html
+运行时间:0.1270s ( Load:0.0320s Init:0.0100s Exec:0.0490s Template:0.0360s )
+吞吐率:7.87req/s
+内存开销:2,984.49 kb
+查询信息:2 queries 0 writes 
+文件加载:34
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\UserController.class.php ( 2.46 KB )
+D:\wamp\www\gokit\3\Application\Home\Model\LabmcsModel.class.php ( 4.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Model.class.php ( 67.27 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db.class.php ( 5.70 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 8.73 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Db\Driver.class.php ( 41.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template.class.php ( 28.35 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 22.62 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Template\TagLib.class.php ( 9.19 KB )
+D:\wamp\www\gokit\3\Application\Runtime\Cache\Home\ae8dca5b5af0fae30237bf7a9e833f43.php ( 5.83 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 1.43 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ view_parse ] --START--
+[ template_filter ] --START--
+Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+[ template_filter ] --END-- [ RunTime:0.001000s ]
+Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+[ view_parse ] --END-- [ RunTime:0.027002s ]
+[ view_filter ] --START--
+Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+SHOW COLUMNS FROM `think_labmcs` [ RunTime:0.0110s ]
+SELECT * FROM `think_labmcs` WHERE `openid` = '33423652' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 调试 ]
+
+
+[ 2015-12-10T15:21:51+08:00 ] 127.0.0.1 /gokit/3/index.php/Home/
+[ 基本 ]
+请求信息:2015-12-10 15:21:51 HTTP/1.1 GET : /gokit/3/index.php/Home/
+运行时间:0.0730s ( Load:0.0510s Init:0.0140s Exec:0.0080s Template:0.0000s )
+吞吐率:13.70req/s
+内存开销:1,334.15 kb
+查询信息:0 queries 0 writes 
+文件加载:24
+缓存信息:0 gets 0 writes 
+配置加载:135
+会话信息:SESSION_ID=e69t4s6kfmjthcldeqtnoplvf3
+
+[ 文件 ]
+D:\wamp\www\gokit\3\index.php ( 1.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\ThinkPHP.php ( 4.71 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Think.class.php ( 12.32 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage.class.php ( 1.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.56 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Mode\common.php ( 2.82 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Common\functions.php ( 52.60 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Hook.class.php ( 4.02 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\App.class.php ( 12.44 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Dispatcher.class.php ( 15.15 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Route.class.php ( 13.38 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\Controller.class.php ( 10.95 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Think\View.class.php ( 7.96 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.69 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.89 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.93 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\convention.php ( 11.05 KB )
+D:\wamp\www\gokit\3\Application\Common\Conf\config.php ( 0.53 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Lang\zh-cn.php ( 2.57 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Conf\debug.php ( 1.61 KB )
+D:\wamp\www\gokit\3\Application\Home\Conf\config.php ( 0.33 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.62 KB )
+D:\wamp\www\gokit\3\Application\Home\Controller\IndexController.class.php ( 0.13 KB )
+D:\wamp\www\gokit\3\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.27 KB )
+
+[ 流程 ]
+[ app_init ] --START--
+Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+[ app_init ] --END-- [ RunTime:0.001000s ]
+[ app_begin ] --START--
+Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+[ app_begin ] --END-- [ RunTime:0.005000s ]
+[ app_end ] --START--
+
+[ 错误 ]
+
+[ SQL ]
+
+
+[ 调试 ]
+
+

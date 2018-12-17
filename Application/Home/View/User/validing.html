@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ch">
+
+    <head>
+
+        <meta charset="utf-8">
+        <title>SCNU 智慧实验室微信预约系统</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- CSS -->
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oleo+Script:400,700'>
+        <link rel="stylesheet" href="__PUBLIC__/assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="__PUBLIC__/assets/css/style.css">
+		<!--<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin_default_color.css" />-->
+
+
+		<script src="__ORG__/wind.js"></script>
+		<script src="__ORG__/jquery.js"></script>
+		
+		<!-- JS -->
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+		
+    </head>
+    <body id="login-page">
+	
+		<div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="logo span4">
+                        <h2><a href="">SCNU<span class="red">.</span>智慧实验室</a></h2>
+                    </div>
+                    <!--<div class="links span8">
+                        <a class="home" href="" rel="tooltip" data-placement="bottom" data-original-title="Home"></a>
+                        <a class="blog" href="" rel="tooltip" data-placement="bottom" data-original-title="Blog"></a>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+		
+            <!-- 主体 -->
+		<div class="register-container container">
+            <div class="row">
+				<div class="iphone span5">
+						<img src="__PUBLIC__/assets/img/iphone.png" alt="">
+				</div>
+				<div class="register span6">
+					<!--<div class="login-body">-->
+					<div class="til"><p>您已完成注册，请等管理员审批</p></div>
+						<div class="login-main pr">
+                            <form action="<{:U('delete_one')}>" method="post" class="login-form">
+								<h2>注册 <span class="red"><strong>信息</strong></span></h2>
+                                <table height= "100%" align = "left" border="0" cellspacing="0" cellpadding="4">
+                                    
+                                            <tr>
+                                                <th width = "40%" avalign = "left">姓 名:</th>                        
+                                                <td><{$username}></td>           
+                                                </tr> 
+                                      
+                                            <tr>
+                                                <th>学 号:</th>
+                                                <td><{$s_num}></td>
+                                                </tr>
+                                            <tr>   
+											<!--<tr>
+												<th>邮 箱:</th>
+												<td><{$email}></td>
+                                            </tr>-->
+                                    </table>
+                                <button class="login-btn" type="submit">重新注册</button>
+							</form>
+						</div>
+					<!--</div>-->
+				</div>
+			</div>
+		</div>
+    <script type="text/javascript">
+    var ajaxShowCodeUrl = "<{:U('ajax_show_code')}>";
+    </script>
+    <script type="text/javascript" src='__PUBLIC__/js/mod.login.js'></script>
+    <style> 
+    .showcode{
+        display: none;
+        }
+     </style>
+</body>
+</html>
