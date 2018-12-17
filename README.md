@@ -17,4 +17,5 @@
 ![alt](./images/1.jpg)
 ### 系统目录结构
 按ThinkPHP框架的要求，我们应用放在Home目录下，控制器、视图和模型分别放在Controller目录、View目录和Model目录中。公共的图片、js和css等资源放在Public目录中，设备上传的图片放在Upload目录中。
+![alt](./images/2.jpg)
 
