@@ -1,0 +1,15 @@
+.fullScreen .content th {
+  display: none;
+  width: 0;
+}
+.fullScreen .head, .fullScreen .tab {
+  height: 0;
+  display: none;
+}
+.fullScreen #default {
+        *left:0;
+        *top:-90px;
+}
+.fullScreen div.options {
+  top: 0;
+}
